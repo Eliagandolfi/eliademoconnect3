@@ -1,7 +1,7 @@
 const cacheName = 'cache-v1';
 const precacheResources = [
   '/',
-  'index.ejs'
+  'app/views/index.ejs'
 ];
 
 self.addEventListener('install', event => {
